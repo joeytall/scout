@@ -5,11 +5,6 @@ Django 2.1 with Python3
 
 `pip install requests pyquery`
 
-## Install Live Reload (Optional)
-`pip install django-livereload-server`
-
-`python3 manager.py livereload`
-
 ## Start up server
 `python3 manager.py runserver`
 
