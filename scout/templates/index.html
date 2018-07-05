@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Jungle Scout</title>
+    <link rel="stylesheet" href="/static/libs/kendo/kendo.common-material.min.css" />
+    <link rel="stylesheet" href="/static/libs/kendo/kendo.material.min.css" />
+    <link rel="stylesheet" href="/static/libs/kendo/kendo.material.mobile.min.css" />
+    <link rel="stylesheet" href="/static/css/index.css" />
+
+    <script src="/static/libs/jquery/jquery.min.js"></script>
+    <script src="/static/libs/vue/vue.min.js"></script>
+    <script src="/static/libs/kendo/kendo.all.min.js"></script>
+</head>
+<body>
+  <div class='row'>
+    <input id="input"/>
+    <button id="search" class='k-primary'>Search</button>
+  </div>
+  <div id="window">
+    <div id="product-info-form" v-show="!loading">
+      <div class="info-row">
+        <label>ASIN:</label> <span id="asin">{[ p.asin ]}</span>
+      </div>
+      <div class="info-row">
+        <label>Category:</label> <span id="category">{[ p.category ]}</span>
+      </div>
+      <div class="info-row">
+        <label>Rank:</label> <span id="rank">{[ p.rank ]}</span>
+      </div>
+      <div class="info-row">
+        <label>Size:</label> <span id="size">{[ p.size ]}</span>
+      </div>
+      <div class="info-row">
+        <label>Weight:</label> <span id="weight">{[ p.weight ]}</span>
+      </div>
+    </div>
+    <div id="error" v-show="error">{[ error ]}</div>
+  </div>
+  <div id="grid"></div>
+  <script src="/static/js/grid.js"></script>
+  <script src="/static/js/button.js"></script>
+  <script src="/static/js/autocomplete.js"></script>
+  <script src="/static/js/product.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
