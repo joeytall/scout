@@ -21,9 +21,6 @@ var Grid = (() => {
         },
         pageSize: 20,
       },
-      noRecords: {
-        template: "no records found."
-      },
       height: $(window).height() - 40,
       scrollable: true,
       sortable: true,
