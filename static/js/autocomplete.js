@@ -4,6 +4,7 @@ var AutoComplete = (() => {
 
   pub.init = () => {
     $("#input").kendoAutoComplete({
+      placeholder: "Enter ASIN: B073VDSLRP...",
       change: (e) => {
         Grid.asin = e.sender.value();
       }
