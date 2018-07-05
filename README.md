@@ -13,17 +13,17 @@ Django 2.1 with Python3
 
 ## Usage
 
-![picture alt](https://github.com/joeytall/fortinetRemote/blob/master/fortinet/static/page.png)
+![picture alt](https://github.com/joeytall/scout/blob/master/static/imgs/table.jpg)
 
 You should see this at  `http://127.0.0.1:8000/`
 
 ## AutoComplete
 
-![picture alt](https://github.com/joeytall/fortinetRemote/blob/master/fortinet/static/page.png)
+![picture alt](https://github.com/joeytall/scout/blob/master/static/imgs/autocomplete.jpg)
 
 ## Detail
 
-![picture alt](https://github.com/joeytall/fortinetRemote/blob/master/fortinet/static/page.png)
+![picture alt](https://github.com/joeytall/scout/blob/master/static/imgs/detail.jpg)
 
 # Featurse
 1. Web Scrape Amazon product info if product not found in db.
