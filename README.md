@@ -6,6 +6,7 @@ Django 2.1 with Python3
 
 ## Install Live Reload (Optional)
 `pip install django-livereload-server`
+
 `python3 manager.py livereload`
 
 ## Start up server
